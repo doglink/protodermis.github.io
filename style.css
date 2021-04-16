@@ -67,6 +67,7 @@
 	}
 
 	.line {
+		width: 100%;
 		position: -webkit-sticky;
     	position: sticky;
     	bottom: 25vh;
