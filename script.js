@@ -13,8 +13,8 @@ function throttle(func, delay) {
 }
 
 const cb = throttle(evt => {
-  defineWhichItem(window.scrollY - 0)
-}, 0)
+  defineWhichItem(window.scrollY - 36 * 12)
+}, 36)
 
 window.addEventListener('scroll', cb)
 
