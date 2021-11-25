@@ -18,15 +18,14 @@
   }
 
 body {
-  background: black;
   font-family: 'gtr';
   display: flex;
   flex-direction: column;
   align-items: stretch;
   text-align: center;
-  color: white;
   letter-spacing: 0.0625em;
   line-height: 1.5em;
+  color: #909499;
   padding: 1em;
   font-size: calc(1.5em + 0.375 * ((100vw - 20em) / 42.5));
   }
@@ -72,7 +71,7 @@ img {
   font-size: 0.375em;
   line-height: 1.5em;
   letter-spacing: 0.05em;
-  
+
 }
 
 .list li:hover {
@@ -122,21 +121,21 @@ background: #57CDFF;
 @keyframes glow {
   from {
     text-shadow:
-    0 0 6px rgba(202,228,225,0.92),
-    0 0 30px rgba(202,228,225,0.34),
-    0 0 12px rgba(58,146,184,0.52), 		
-    0 0 21px rgba(58,146,184,0.92),
-    0 0 34px rgba(58,146,184,0.78),
-    0 0 54px rgba(58,146,184,0.92);
+    0 0 6px rgba(233,195,203,0.92),
+    0 0 30px rgba(233,195,203,0.34),
+    0 0 12px rgba(194,46,90,0.52),
+    0 0 21px rgba(194,46,90,0.92),
+    0 0 34px rgba(194,46,90,0.78),
+    0 0 54px rgba(194,46,90,0.92);
   }
   to {
     text-shadow:
-    0 0 6px rgba(202,228,225,0.98),
-    0 0 30px rgba(202,228,225,0.42),
-    0 0 12px rgba(58,146,184,0.58),
-    0 0 22px rgba(58,146,184,0.84),
-    0 0 38px rgba(58,146,184,0.88),
-    0 0 60px rgba(58,146,184,1);
+    0 0 6px rgba(233,195,203,0.98),
+    0 0 30px rgba(233,195,203,0.42),
+    0 0 12px rgba(194,46,90,0.58),
+    0 0 22px rgba(194,46,90,0.84),
+    0 0 38px rgba(194,46,90,0.88),
+    0 0 60px rgba(194,46,90,1);
   }
 }
 
@@ -144,16 +143,16 @@ background: #57CDFF;
 
 
 .list li {
-	
+
 	&:focus,
 	&:hover {
-    color: #57CDFF;
+    color: #ff5f57;
 		text-shadow:
-    0 0 2px rgba(202,228,225,0.92),
-    0 0 10px rgba(202,228,225,0.34),
-    0 0 4px rgba(30,132,242,0.52),
-    0 0 7px rgba(30,132,242,0.92),
-    0 0 11px rgba(30,132,242,0.78),
-    0 0 16px rgba(30,132,242,0.92);
+    0 0 2px rgba(233,195,203, 0.92),
+    0 0 10px rgba(233,195,203, 0.34),
+    0 0 4px rgba(242,28,28,0.52),
+    0 0 7px rgba(242,28,28,0.92),
+    0 0 11px rgba(242,28,28,0.78),
+    0 0 16px rgba(242,28,28,0.92);
 	}
 }
