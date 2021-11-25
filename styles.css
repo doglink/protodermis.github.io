@@ -67,7 +67,7 @@ img {
 }
 
 .description, .price, button, footer {
-  font-family: 'Arial', sans-serif;
+  font-family: 'eer';
   font-size: 0.375em;
   line-height: 1.5em;
   letter-spacing: 0.05em;
@@ -116,43 +116,4 @@ background: #ff5f57;
 
 ::-webkit-scrollbar {
   background: white;
-}
-
-@keyframes glow {
-  from {
-    text-shadow:
-    0 0 6px rgba(233,195,203,0.92),
-    0 0 30px rgba(233,195,203,0.34),
-    0 0 12px rgba(194,46,90,0.52),
-    0 0 21px rgba(194,46,90,0.92),
-    0 0 34px rgba(194,46,90,0.78),
-    0 0 54px rgba(194,46,90,0.92);
-  }
-  to {
-    text-shadow:
-    0 0 6px rgba(233,195,203,0.98),
-    0 0 30px rgba(233,195,203,0.42),
-    0 0 12px rgba(194,46,90,0.58),
-    0 0 22px rgba(194,46,90,0.84),
-    0 0 38px rgba(194,46,90,0.88),
-    0 0 60px rgba(194,46,90,1);
-  }
-}
-
-
-
-
-.list li {
-
-	&:focus,
-	&:hover {
-    color: #ff5f57;
-		text-shadow:
-    0 0 2px rgba(233,195,203, 0.92),
-    0 0 10px rgba(233,195,203, 0.34),
-    0 0 4px rgba(242,28,28,0.52),
-    0 0 7px rgba(242,28,28,0.92),
-    0 0 11px rgba(242,28,28,0.78),
-    0 0 16px rgba(242,28,28,0.92);
-	}
 }
