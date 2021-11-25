@@ -67,7 +67,7 @@ img {
 }
 
 .description, .price, button, footer {
-  font-family: 'eer';
+  font-family: 'Arial', sans-serif;
   font-size: 0.375em;
   line-height: 1.5em;
   letter-spacing: 0.05em;
@@ -84,9 +84,9 @@ img {
 }
 
 button {
-  background-color: black;
-  border: 1px solid white;
-  color: white;
+  background-color: white;
+  border: 1px solid darkgray;
+  color: darkgray;
   padding: 1em 10em;
   outline: none;
   cursor: pointer;
@@ -107,15 +107,15 @@ footer {
 }
 
 ::selection {
-background: #57CDFF;
+background: #ff5f57;
 }
 
 ::-moz-selection {
-background: #57CDFF;
+background: #ff5f57;
 }
 
 ::-webkit-scrollbar {
-  background: black;
+  background: white;
 }
 
 @keyframes glow {
